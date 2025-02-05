@@ -89,7 +89,12 @@
                                 <a class="navbar-brand" href="${contextPath}/index">HKH Infotech</a>
                             </div>
                             <div class="navbar-collapse collapse">
-
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#technologies">Technologies</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
                                 <div class="navbar-collapse navbar-right collapse">
                                     <ul class="nav navbar-nav">
                                         <li><a href="${contextPath}">Login</a></li>
