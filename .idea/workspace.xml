@@ -5,45 +5,324 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23b1f30d-f733-4142-9b48-f9155c27ce48" name="Changes" comment="Terraform-Practice-eks">
-      <change afterPath="$PROJECT_DIR$/Docker-files/app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-files/app/multistage/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-files/d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-files/db/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-files/db/db_backup.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-files/web/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-files/web/nginvproapp.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/appdeploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/appingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/appservice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/dbdeploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/dbpvc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/dbservice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/mcdep.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/mcservice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/rmqdeploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/rmqservice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubedefs/secret.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/Terraform-eks/eks-cluster.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/Terraform-eks/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/Terraform-eks/outputs.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/Terraform-eks/terraform.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/Terraform-eks/variables.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/Terraform-eks/vpc.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/backend-services.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/backend.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/bastion-host.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/bean-app.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/bean-env.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/keypairs.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/providers.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/secgrp.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/templates/db-deploy.tmpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/vars.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/vpc.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/vprofilekey" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform-aws-vprofile-project/vprofilekey.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChromeDriver/bcup/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChromeDriver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScrnShts/Screenshot 2024-08-20 100327.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScrnShts/Screenshot 2024-08-20 100347.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DevOPS/devOPS/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/beans/Components.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/controller/FileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/controller/RabbitMqController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/service/ConsumerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/service/ProducerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/service/ProducerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/service/SecurityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/utils/MemcachedUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/utils/RabbitMqUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visualpathit/account/validator/UserValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/accountsdb.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db_backup.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/validation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-rabbitmq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-root.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/elasticeSearchRes.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/500.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/database-error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index_home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rabbitmq-error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rabbitmq.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userUpdate.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/background1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/bg-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/dev_img.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/devops_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/hkh-infotech-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/icons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/login-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/new-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/new-logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/technologies/Ansible_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/technologies/Vagrant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/technologies/aws.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/technologies/docker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/technologies/git.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/technologies/jenkins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/technologies/puppet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/technologies/python-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/user/giphy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/user/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/user/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/user/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/user/user3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/visualpath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/visualpathlogo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/Images/visualpathlogo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/util.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/w3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/iconic/css/material-design-iconic-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/iconic/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/animsition/css/animsition.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/animsition/css/animsition.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/animsition/js/animsition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/animsition/js/animsition.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/countdowntime/countdowntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/daterangepicker/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/daterangepicker/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/daterangepicker/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/select2/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/ChromeDriver/bcup/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/ChromeDriver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/ScrnShts/Screenshot 2024-08-20 100327.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/ScrnShts/Screenshot 2024-08-20 100347.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/my.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/src/main/java/DevOPS/devOPS/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/src/test/java/DevOPS/devOPS/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/src/test/java/DevOPS/devOPS/VProfile_TestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/src/test/java/DevOPS/devOPS/Variables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/src/test/java/DevOPS/devOPS/baseDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/src/test/java/DevOPS/devOPS/mavenarg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/src/test/java/DevOPS/devOPS/vprofileHomePagePO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/src/test/java/DevOPS/devOPS/vprofileHomePageVerification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/CI_CD_TEST/PrincipleTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/CI_CD_TEST/PrincipleTestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/CI_CD_TEST/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/Default suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/junitreports/TEST-DevOPS.devOPS.VProfile_TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/junitreports/TEST-DevOPS.devOPS.mavenarg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/PrincipleTestSuite.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/CI_CD_TEST/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumscripts/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DevOPS/devOPS/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DevOPS/devOPS/VProfile_TestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DevOPS/devOPS/Variables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DevOPS/devOPS/baseDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DevOPS/devOPS/mavenarg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DevOPS/devOPS/vprofileHomePagePO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DevOPS/devOPS/vprofileHomePageVerification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/visualpathit/account/controllerTest/SampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/visualpathit/account/controllerTest/UserControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/visualpathit/account/modelTest/RoleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/visualpathit/account/modelTest/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/visualpathit/account/setup/StandaloneMvcTestViewResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/CI_CD_TEST/PrincipleTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/CI_CD_TEST/PrincipleTestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/CI_CD_TEST/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-DevOPS.devOPS.VProfile_TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-DevOPS.devOPS.mavenarg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/PrincipleTestSuite.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CI_CD_TEST/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,36 +337,36 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "keshavp07-git"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;keshavp07-git&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/keshavp07-git/vprofile-project-main.git",
-    "accountId": "c5a7c370-04da-4dcf-94cc-dec4d1619388"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/keshavp07-git/vprofile-project-main.git&quot;,
+    &quot;accountId&quot;: &quot;c5a7c370-04da-4dcf-94cc-dec4d1619388&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2scCI8zsZUqmIzi3APFwkzOjHm9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "skelkube",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Vprofile-Project/vprofile-project-main/vprofile-project-main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;skelkube&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Vprofile-Project/vprofile-project-main/vprofile-project-main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Vprofile-Project\vprofile-project-main\vprofile-project-main" />
