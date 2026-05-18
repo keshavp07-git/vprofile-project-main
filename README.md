@@ -30,21 +30,22 @@ Version Control        | Git, GitHub
 
 ## Architecture Diagram
 
+```
                         +---------------------------+
                         |       Developer Push      |
                         |      (GitHub / GitLab)    |
                         +-------------+-------------+
                                       |
                           +-----------v-----------+
-                          |   CI Pipeline         |
-                          |  Jenkins + GitHub      |
-                          |  Actions               |
-                          |  - Build Docker Image  |
-                          |  - Push to Registry    |
+                          |      CI Pipeline      |
+                          |  Jenkins + GitHub     |
+                          |  Actions              |
+                          |  - Build Docker Image |
+                          |  - Push to Registry   |
                           +-----------+-----------+
                                       |
                           +-----------v-----------+
-                          |   ArgoCD (GitOps)     |
+                          |    ArgoCD (GitOps)    |
                           |  Pull-based Delivery  |
                           |  Syncs K8s manifests  |
                           +-----------+-----------+
@@ -57,13 +58,14 @@ Version Control        | Git, GitHub
    +------------------+   +------------------+   +-------------------+
                |                       |                     |
                +-----------+-----------+---------------------+
-                           |
-               +-----------v-----------+
-               |  Observability Stack  |
-               |  Prometheus + Grafana |
-               |  ELK Stack + Loki     |
-               |  Slack Alerting       |
-               +-----------------------+
+                                       |
+                          +-----------v-----------+
+                          |  Observability Stack  |
+                          |  Prometheus + Grafana |
+                          |  ELK Stack + Loki     |
+                          |  Slack Alerting       |
+                          +-----------------------+
+```
 
 ---
 
@@ -119,31 +121,33 @@ This provisions: VPC, EKS cluster, IAM roles, RDS, and S3 buckets.
 
 ### Pipeline Flow
 
-    Code Push
-      |
-      v
-    GitHub Actions / Jenkins Triggered
-      |
-      +-- Checkout source code
-      |
-      +-- Build Docker image
-      |
-      +-- Push image to Docker registry (Sonatype Nexus / DockerHub)
-      |
-      +-- Update Helm chart image tag in Git repo
-      |
-      v
-    ArgoCD detects change in Git (pull-based GitOps)
-      |
-      v
-    ArgoCD syncs Kubernetes manifests to EKS cluster
-      |
-      v
-    Rolling deployment with zero downtime
-      |
-      v
-    Prometheus + Grafana + Loki confirm healthy rollout
-    Slack alert sent on success / failure
+```
+Code Push
+  |
+  v
+GitHub Actions / Jenkins Triggered
+  |
+  +-- Checkout source code
+  |
+  +-- Build Docker image
+  |
+  +-- Push image to Docker registry (Sonatype Nexus / DockerHub)
+  |
+  +-- Update Helm chart image tag in Git repo
+  |
+  v
+ArgoCD detects change in Git (pull-based GitOps)
+  |
+  v
+ArgoCD syncs Kubernetes manifests to EKS cluster
+  |
+  v
+Rolling deployment with zero downtime
+  |
+  v
+Prometheus + Grafana + Loki confirm healthy rollout
+Slack alert sent on success / failure
+```
 
 ### Key Metrics
 
